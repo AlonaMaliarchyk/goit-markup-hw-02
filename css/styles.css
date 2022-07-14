@@ -8,6 +8,10 @@ accent #2196F3;---*/
     color: #000000;
 }
 
+.logo-color {
+    color: #2196F3;
+}
+
 .list {
     list-style: none;
 }
@@ -19,6 +23,11 @@ body {
 
 .link {
     text-decoration: none;
+}
+
+.hero-button {
+    background-color: #2196F3;
+    ;
 }
 
 /* ------------HEADER-------------- */
@@ -47,6 +56,33 @@ body {
     color: #2196F3;
 }
 
+/*----------------main----------------------*/
+
+/*------hero---------*/
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.hero-button {
+    color: #FFFFFF;
+}
+
+/*------section------*/
+
+.section {}
+
+.section-title {}
+
+.section-text {
+    color: #757575
+}
+
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -59,6 +95,8 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
+
+/*------------------footer--------------*/
 
 .contacts-address {
     font-style: normal;
