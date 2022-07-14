@@ -1,3 +1,9 @@
+:root {
+    --primery-text-color: #212121;
+    --secendery-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
 /*-----основый цвет текста
 first-color-text #212121;
 secend-color-text #757575
@@ -9,7 +15,8 @@ accent #2196F3;---*/
 }
 
 .logo-color {
-    color: #2196F3;
+    color: var(--accent-color);
+    ;
 }
 
 .list {
@@ -25,35 +32,36 @@ body {
     text-decoration: none;
 }
 
-.hero-button {
-    background-color: #2196F3;
-    ;
-}
-
 /* ------------HEADER-------------- */
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
 
 .header-link {
     color: #212121;
 }
 
 .header-link:hover,
-.header-link:focus {
-    color: #2196F3;
+.header-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-color);
 }
 
 .header-contact {
-    color: #757575
+    color: var(--secendery-text-color)
 }
 
-.header-contact:hover,
+
+/*.header-contact:hover,
 .header-contact:focus {
-    color: #2196F3;
-}
+    color: var(--accent-color)
+}*/
 
 .site-nav a:hover,
 .site-nav a:focus {
-    color: #2196F3;
+    color: var(--accent-color)
 }
 
 /*----------------main----------------------*/
@@ -68,18 +76,27 @@ body {
     color: #FFFFFF;
 }
 
-.hero-button {
+.hero-btn {
     color: #FFFFFF;
+    background-color: #2196F3;
 }
 
 /*------section------*/
 
-.section {}
+.section {
+    color: var(--primery-text-color);
+}
 
-.section-title {}
+.benefits-list {
+    color: var(--primery-text-color);
+}
 
-.section-text {
-    color: #757575
+.benefits-list .title {
+    color: var(--primery-text-color);
+}
+
+.benefits-list .text {
+    color: var(--secendery-text-color)
 }
 
 
