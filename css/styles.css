@@ -5,6 +5,19 @@
     --white: #FFFFFF;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .logo {
     text-decoration: none;
     color: #000000;
@@ -149,7 +162,6 @@ btn:focus {
 
 .benefits-list .text {
     color: var(--secendery-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -166,30 +178,16 @@ btn:focus {
 .team .title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .team .text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-}
-
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
 }
 
 .project-list .title {
@@ -200,7 +198,6 @@ btn:focus {
 }
 
 .project-list .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -230,7 +227,6 @@ btn:focus {
 
 .footer-address,
 footer .list {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
